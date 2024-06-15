@@ -1,0 +1,24 @@
+.card {
+  border: solid black 0.2rem;
+  border-radius: 1rem;
+  padding: 0.4rem;
+}
+
+.card:hover {
+  border-color: rgb(0, 171, 0);
+  box-shadow: 0rem 0rem 0.5rem rgb(0, 171, 0);
+}
+
+.card:active {
+  border-color: rebeccapurple;
+}
+
+.card-title {
+  text-transform: capitalize;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-img {
+  height: 8.75rem;
+}
