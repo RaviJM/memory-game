@@ -1,7 +1,9 @@
-function Scoreboard() {
+function Scoreboard({ currentScore, highScore }) {
   return (
-    <div>
-      <h2>Scoreboard</h2>
+    <div className="scoreboard-container">
+      <h1>Scoreboard</h1>
+      <p>Score: {currentScore}</p>
+      <p>High Score: {highScore}</p>
     </div>
   );
 }

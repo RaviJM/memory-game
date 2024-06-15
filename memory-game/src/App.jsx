@@ -9,8 +9,13 @@ function App() {
 
   return (
     <>
-      <Scoreboard />
-      <Cards />
+      <Scoreboard currentScore={currentScore} highScore={highScore} />
+      <Cards
+        currentScore={currentScore}
+        highScore={highScore}
+        setCurrentScore={setCurrentScore}
+        setHighScore={setHighScore}
+      />
     </>
   );
 }
